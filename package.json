@@ -1,0 +1,22 @@
+{
+  "name": "frontend-coding-practice",
+  "version": "1.0.0",
+  "description": "A repository for practicing frontend coding tests, technical interview topics, and hands-on frontend challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "cp -r _template coding-test/2026/08/$(date +%m-%d-%Y)/$npm_config_name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/frontend-coding-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/frontend-coding-practice/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/frontend-coding-practice#readme"
+}

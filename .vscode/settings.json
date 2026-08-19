@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 저장할 때마다 매번 Ctrl+S 안 눌러도 되게 (선택사항, 취향 차이)
+  "files.autoSave": "onFocusChange",
+
+  // 붙여넣기 할 때도 자동 포맷 (예제 코드 붙여넣을 때 유용)
+  "editor.formatOnPaste": true,
+
+  // 탭 크기 통일 (많은 코딩테스트 스타일이 2칸)
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // 줄바꿈 문자 통일 (Windows/Mac 섞여있으면 git diff 지저분해짐)
+  "files.eol": "\n",
+
+  // 저장 시 마지막 줄바꿈 자동 추가, 끝에 공백 제거
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // JS 파일에서 자동 세미콜론/따옴표 스타일 prettier가 처리하게
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Node.js 콘솔에서 바로 실행하고 싶으면 (Code Runner 확장 설치 시)
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true
+}
